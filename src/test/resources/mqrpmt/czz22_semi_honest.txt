@@ -1,0 +1,15 @@
+# protocol type
+pto_type = mqRPMT_DPSI
+
+# element byte length
+element_byte_length = 16
+
+# parties log set size (log(n))
+server_log_set_size = 12,10
+client_log_set_size = 12,10
+
+# protocol name
+mqrpmt_dpsi_pto_name = CZZ22
+
+# privacy budget
+epsilon = 1.0
