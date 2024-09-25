@@ -13,7 +13,9 @@ import edu.alibaba.mpc4j.s2pc.pso.cpsi.ccpsi.rs21.Rs21CcpsiConfig;
 
 import java.util.Properties;
 
-
+/**
+ * DPSI config utilities.
+ */
 public class DpsiConfigUtils {
     /**
      * private constructor.

@@ -10,7 +10,9 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
+/**
+ * DP-PSI based on mqRPMT efficiency test.
+ */
 @Ignore
 public class DpPsiParameterTest {
     private static final Logger LOGGER = LoggerFactory.getLogger(DpPsiParameterTest.class);

@@ -5,7 +5,9 @@ import edu.alibaba.mpc4j.common.tool.CommonConstants;
 
 import java.security.SecureRandom;
 
-
+/**
+ * DPSI based on mqRPMT utils.
+ */
 public class MqRpmtDpUtils {
     /**
      * return the max noise size

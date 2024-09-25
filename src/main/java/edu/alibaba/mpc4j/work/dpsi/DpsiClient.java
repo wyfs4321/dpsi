@@ -5,7 +5,9 @@ import edu.alibaba.mpc4j.common.rpc.pto.TwoPartyPto;
 
 import java.util.Set;
 
-
+/**
+ * DPSI client.
+ */
 public interface DpsiClient<T> extends TwoPartyPto {
     /**
      * Client initializes the protocol.

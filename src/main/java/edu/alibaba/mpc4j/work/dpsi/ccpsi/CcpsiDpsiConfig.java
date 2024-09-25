@@ -10,7 +10,9 @@ import edu.alibaba.mpc4j.work.dpsi.DpsiFactory.DpPsiType;
 import edu.alibaba.mpc4j.s2pc.pso.cpsi.ccpsi.CcpsiConfig;
 import edu.alibaba.mpc4j.s2pc.pso.cpsi.ccpsi.CcpsiFactory;
 
-
+/**
+ * DPSI based on client-payload circuit PSI config.
+ */
 public class CcpsiDpsiConfig extends AbstractMultiPartyPtoConfig implements DpsiConfig {
     /**
      * ε

@@ -23,7 +23,9 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
-
+/**
+ * DPSI based on mqRPMT server.
+ */
 public class MqRpmtDpsiServer<T> extends AbstractDpsiServer<T> {
     /**
      * mqRPMT

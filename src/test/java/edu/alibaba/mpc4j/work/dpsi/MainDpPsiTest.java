@@ -15,6 +15,9 @@ import java.util.Collection;
 import java.util.Objects;
 import java.util.Properties;
 
+/**
+ * DP-PSI main test.
+ */
 @RunWith(Parameterized.class)
 public class MainDpPsiTest extends AbstractTwoPartyMemoryRpcPto {
 

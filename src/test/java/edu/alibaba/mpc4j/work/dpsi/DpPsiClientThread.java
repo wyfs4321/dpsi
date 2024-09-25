@@ -5,7 +5,9 @@ import edu.alibaba.mpc4j.common.rpc.MpcAbortException;
 import java.nio.ByteBuffer;
 import java.util.Set;
 
-
+/**
+ * DP-PSI client thread.
+ */
 class DpPsiClientThread extends Thread {
     /**
      * DP-PSI client

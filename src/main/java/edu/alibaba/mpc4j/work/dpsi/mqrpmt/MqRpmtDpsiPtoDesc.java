@@ -3,7 +3,9 @@ package edu.alibaba.mpc4j.work.dpsi.mqrpmt;
 import edu.alibaba.mpc4j.common.rpc.desc.PtoDesc;
 import edu.alibaba.mpc4j.common.rpc.desc.PtoDescManager;
 
-
+/**
+ * DPSI based on mqRPMT protocol description.
+ */
 class MqRpmtDpsiPtoDesc implements PtoDesc {
     /**
      * protocol ID

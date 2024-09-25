@@ -16,7 +16,9 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-
+/**
+ * DPSI based on client-payload circuit PSI client.
+ */
 public class CcpsiDpsiClient<T> extends AbstractDpsiClient<T> {
     /**
      * CCPSI

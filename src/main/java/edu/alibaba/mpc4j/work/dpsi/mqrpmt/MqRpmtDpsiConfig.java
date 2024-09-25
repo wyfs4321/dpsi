@@ -11,7 +11,9 @@ import edu.alibaba.mpc4j.work.dpsi.DpsiFactory.DpPsiType;
 import edu.alibaba.mpc4j.s2pc.opf.mqrpmt.MqRpmtConfig;
 import edu.alibaba.mpc4j.s2pc.opf.mqrpmt.MqRpmtFactory;
 
-
+/**
+ * DPSI based on mqRPMT config.
+ */
 public class MqRpmtDpsiConfig extends AbstractMultiPartyPtoConfig implements DpsiConfig {
     /**
      * ε_c

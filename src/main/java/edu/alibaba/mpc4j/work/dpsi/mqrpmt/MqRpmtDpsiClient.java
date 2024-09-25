@@ -21,7 +21,9 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-
+/**
+ * DPSI based on mqRPMT client.
+ */
 public class MqRpmtDpsiClient<T> extends AbstractDpsiClient<T> {
     /**
      * mqRPMT

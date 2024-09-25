@@ -1,6 +1,8 @@
 package edu.alibaba.mpc4j.work.dpsi.main;
 
-
+/**
+ * DPSI main type.
+ */
 public enum DpsiMainType {
     /**
      * MQRPMT_CZZ24

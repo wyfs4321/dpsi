@@ -3,7 +3,9 @@ package edu.alibaba.mpc4j.work.dpsi.ccpsi;
 import edu.alibaba.mpc4j.common.rpc.desc.PtoDesc;
 import edu.alibaba.mpc4j.common.rpc.desc.PtoDescManager;
 
-
+/**
+ * DPSI based on client-payload circuit PSI protocol description.
+ */
 class CcpsiDpsiPtoDesc implements PtoDesc {
     /**
      * protocol ID

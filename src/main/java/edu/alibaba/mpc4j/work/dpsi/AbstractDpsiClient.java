@@ -9,7 +9,9 @@ import edu.alibaba.mpc4j.common.tool.MathPreconditions;
 import java.util.ArrayList;
 import java.util.Set;
 
-
+/**
+ * abstract DPSI client.
+ */
 public abstract class AbstractDpsiClient<T> extends AbstractTwoPartyPto implements DpsiClient<T> {
     /**
      * max client element size

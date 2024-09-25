@@ -30,7 +30,9 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-
+/**
+ * DPSI main.
+ */
 public class DpsiMain extends AbstractMainTwoPartyPto {
     private static final Logger LOGGER = LoggerFactory.getLogger(PsoMain.class);
     /**

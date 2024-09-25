@@ -10,7 +10,9 @@ import edu.alibaba.mpc4j.work.dpsi.mqrpmt.MqRpmtDpsiClient;
 import edu.alibaba.mpc4j.work.dpsi.mqrpmt.MqRpmtDpsiConfig;
 import edu.alibaba.mpc4j.work.dpsi.mqrpmt.MqRpmtDpsiServer;
 
-
+/**
+ * DPSI factory.
+ */
 public class DpsiFactory implements PtoFactory {
     /**
      * private constructor.
